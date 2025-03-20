@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pendu.JeuPage">
+
+    <ScrollView>
+        <VerticalStackLayout 
+            Padding="30,0" 
+            Spacing="25">
+        
+        <Label 
+            x:Name="CompteurLabel" 
+            FontSize="18" 
+            HorizontalOptions="End"/>
+        
+        <Label 
+            x:Name="choixLabel" 
+            FontSize="18" 
+            HorizontalOptions="Start"/>
+
+        <Label x:Name="penduLabel"
+           FontSize="24"
+           HorizontalOptions="Center" />
+
+        <Label 
+            x:Name="reponseLabel" 
+            FontSize="22" 
+            HorizontalOptions="Center"/>
+
+        <Entry 
+            x:Name="Entre" 
+            Placeholder="Entrez une lettre" 
+            HorizontalOptions="Center" />
+
+        <Button 
+            Text="Valider" 
+            Clicked="BoutonDeviner" 
+            HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

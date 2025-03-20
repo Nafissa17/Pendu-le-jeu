@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pendu.GagnerPage">
+
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+        <Label 
+            Text="Bravo !!!" 
+            FontSize="24" 
+            HorizontalOptions="Center"/>
+            
+        <Label 
+            x:Name="MotsLabel" 
+            FontSize="18" 
+            HorizontalOptions="Center"/>
+
+        <Button 
+            Text="Rejouer" 
+            Clicked="BoutonRejouer" 
+            HorizontalOptions="Center"/>
+
+        <Button 
+            Text="Quitter" 
+            Clicked="BoutonQuitter" 
+            HorizontalOptions="Center"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
